@@ -1,4 +1,4 @@
-# react-store - v1.0.0
+# react-store - v1.0.1
 - A library based on (ContextApi) for managing state in the application.
 - Supported for (react/react-native/next)
 
