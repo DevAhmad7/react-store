@@ -16,7 +16,7 @@
  
 ## Create Store
 * Example
-- make file (main-store.js) then call import
+- make file (main-store.js) then import
 ```js
 import ReactStore from "*path*/react-store";
 ```
@@ -80,7 +80,7 @@ export default function MyApp() {
 import { useMainSelector } from "*path*/main-store";
 ...
 const ExampleState = () => {
-  // you can use this useMainSelector at any components
+  // you can use this useMainSelector at any component
   const value = useMainSelector("first"); // return Ahmad
   // Or useMainSelector((state) => state.first); // return Ahmad
   // Or useMainSelector("full", (state) => `${state.first} ${state.last}`); // return Ahmad Hassan
@@ -103,7 +103,7 @@ const ExampleState = () => {
 import { useMainDispatch } from "*path*/main-store";
 ...
 const ExampleDispatch = () => {
-  // you can use this useMainDispatch at any components
+  // you can use this useMainDispatch at any component
   const dispatch = useMainDispatch(); // return a function => dispatch
   /*
     dispatch is a function that takes two parameters
